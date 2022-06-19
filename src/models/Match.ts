@@ -68,10 +68,6 @@ export class Match {
     }
   }
 
-  public getPlayers(): Player[] {
-    return this.players;
-  }
-
   // wipes board, then sets a fresh one for a new round.
   public restart(): void {
     const alert = document.querySelector('.results') as HTMLElement;

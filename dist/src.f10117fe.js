@@ -626,11 +626,6 @@ var Match = /*#__PURE__*/function () {
       for (var i = 0; i < this.scoreKeepers.length; i++) {
         this.scoreKeepers[i].innerHTML = "\n      <h3>".concat(this.players[i].name, "</h3>\n      <p>").concat(this.players[i].score, "</p>\n    ");
       }
-    }
-  }, {
-    key: "getPlayers",
-    value: function getPlayers() {
-      return this.players;
     } // wipes board, then sets a fresh one for a new round.
 
   }, {
